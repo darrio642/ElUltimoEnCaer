@@ -1,0 +1,113 @@
+[07May2026 00:13:51.847] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /mm
+Server threadEx[07May2026 00:13:51.871] [Server thread/ERROR] [Minecraft/]: null
+Server threadEx org.bukkit.command.CommandException: Unhandled exception executing command 'mm' in plugin MythicMobs v5.11.2-6a371d59
+	at knot/org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[arclight-1.21.1-1.0.1-8ec9529.jar:?]
+	at knot/org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:150) ~[arclight-1.21.1-1.0.1-8ec9529.jar:?]
+	at knot/org.bukkit.craftbukkit.v1_21_R1.CraftServer.dispatchCommand(CraftServerMixin.java:922) ~[arclight-1.21.1-1.0.1-8ec9529.jar:?]
+	at knot/org.bukkit.craftbukkit.v1_21_R1.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:50) ~[arclight-1.21.1-1.0.1-8ec9529.jar:?]
+	at knot/com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at knot/net.minecraft.class_8865.method_54416(class_8865.java:29) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8865.execute(class_8865.java:13) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8856.method_54405(class_8856.java:8) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8847.method_54388(class_8847.java:8) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_8854.method_54390(class_8854.java:107) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2170.method_54313(CommandsMixin.java:379) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2170.method_9249(CommandsMixin.java:309) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3244.method_58590(ServerGamePacketListenerImplMixin_LowPriority.java:1319) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3244.method_44356(ServerGamePacketListenerImplMixin_LowPriority.java:1307) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3738.run(class_3738.java:18) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18859(BlockableEventLoopMixin.java:162) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4093.method_18859(class_4093.java:23) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_24306(MinecraftServerMixin.java:864) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18859(MinecraftServerMixin.java:173) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_16075(BlockableEventLoopMixin.java:136) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_20415(MinecraftServerMixin.java:846) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16075(MinecraftServerMixin.java:840) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1255.method_18857(BlockableEventLoopMixin.java:145) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_18857(MinecraftServerMixin.java:810) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_16208(MinecraftServerMixin.java:815) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29741(MinecraftServerMixin.java:702) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.MinecraftServer.method_29739(MinecraftServerMixin.java:281) ~[server-intermediary.jar:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.ArrayStoreException: org.bukkit.craftbukkit.v1_21_R1.entity.CraftPlayer
+	at io.lumine.mythic.bukkit.utils.text.Text.sendMessage(Text.java:155) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.CommandHelper.sendHeader(CommandHelper.java:16) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.CommandHelper.sendCommandMessage(CommandHelper.java:48) ~[?:?]
+	at io.lumine.mythic.bukkit.commands.BaseCommand.onCommand(BaseCommand.java:80) ~[?:?]
+	at io.lumine.mythic.bukkit.utils.commands.Command.onCommand(Command.java:64) ~[?:?]
+	at knot/org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[arclight-1.21.1-1.0.1-8ec9529.jar:?]
+	... 27 more
+[07May2026 00:13:57.625] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei
+Server threadEx[07May2026 00:14:11.261] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei edit
+Server threadEx[07May2026 00:14:16.397] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei list
+Server threadEx[07May2026 00:14:33.995] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei give ElDarVI Free_Custom_Crate_v1_8}
+Server threadEx[07May2026 00:14:47.075] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei give ElDarVI Free_Custom_Crate_v1_8
+Server threadEx[07May2026 00:15:25.426] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI issued server command: /ei give ElDarVI Free_Wifi_Crafting_Table 1
+Server threadEx[07May2026 00:15:43.671] [Server thread/INFO] [net.minecraft.class_3244/]: ElDarVI lost connection: Disconnected
+Server threadEx[07May2026 00:15:43.732] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ElDarVI left the game
+Server threadEx[07May2026 00:15:51.108] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+Server threadEx[07May2026 00:15:51.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+Server threadEx[07May2026 00:15:51.158] [Server thread/INFO] [ItemTag/]: Disabling ItemTag v3.7.5
+Server threadEx[07May2026 00:15:51.160] [Server thread/INFO] [PlaceholderAPI/]: Unregistered placeholder expansion itemtag
+Server threadEx[07May2026 00:15:51.160] [Server thread/INFO] [PlaceholderAPI/]: Reason: required plugin ItemTag was disabled.
+Server threadEx[07May2026 00:15:51.163] [Server thread/INFO] [ItemEdit/]: Disabling ItemEdit v3.7.8
+Server threadEx[07May2026 00:15:51.163] [Server thread/INFO] [PlaceholderAPI/]: Unregistered placeholder expansion itemedit
+Server threadEx[07May2026 00:15:51.163] [Server thread/INFO] [PlaceholderAPI/]: Reason: required plugin ItemEdit was disabled.
+Server threadEx[07May2026 00:15:51.165] [Server thread/INFO] [ModelEngine/]: Disabling ModelEngine vR4.0.9
+Server threadEx[07May2026 00:15:51.166] [Server thread/INFO] [ConditionalEvents/]: Disabling ConditionalEvents v4.76.1
+Server threadEx[07May2026 00:15:51.167] [Server thread/INFO] [Console/]: [ConditionalEvents] Has been disabled! Version: 4.76.1
+Server threadEx[07May2026 00:15:51.168] [Server thread/INFO] [CustomCrafting/]: Disabling CustomCrafting v4.16.11
+Server threadEx[07May2026 00:15:51.179] [Server thread/INFO] [ExecutableItems/]: Disabling ExecutableItems v7.26.4.26
+Server threadEx[07May2026 00:15:51.181] [Server thread/INFO] [WolfyUtilities/]: Disabling WolfyUtilities v4.17-beta.7
+Server threadEx[07May2026 00:15:51.182] [Server thread/INFO] [WolfyUtilities/]: Save stored Custom Items
+Server threadEx[07May2026 00:15:51.188] [Server thread/INFO] [MythicMobs/]: Disabling MythicMobs v5.11.2-6a371d59
+Server threadEx[07May2026 00:15:51.189] [Server thread/INFO] [MythicMobs/]: [35m[1m------------------------------------------------------------[0m[0m
+Server threadEx[07May2026 00:15:51.189] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0m[0m
+Server threadEx[07May2026 00:15:51.190] [Server thread/INFO] [MythicMobs/]: [35m[1m- [33mUnloading Mythic...[0m[0m
+Server threadEx[07May2026 00:15:51.190] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0m[0m
+Server threadEx[07May2026 00:15:51.191] [Server thread/INFO] [MythicMobs/]: [35m[1m------------------------------------------------------------[0m[0m
+Server threadEx[07May2026 00:15:51.191] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0mSpawners saved and unloaded...[0m[0m
+Server threadEx[07May2026 00:15:51.191] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0mMobs saved and unloaded...[0m[0m
+Server threadEx[07May2026 00:15:51.191] [Server thread/INFO] [MythicMobs/]: Saving plugin data...[0m
+Server threadEx[07May2026 00:15:51.192] [Server thread/INFO] [MythicMobs/]: [32m✓[37mSaving Finished[0m
+Server threadEx[07May2026 00:15:51.196] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0mVariables saved...[0m[0m
+Server threadEx[07May2026 00:15:51.199] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0mAll active settings have been saved![0m[0m
+Server threadEx[07May2026 00:15:51.199] [Server thread/INFO] [MythicMobs/]: [35m[1m- [0mMythic has been unloaded![0m[0m
+Server threadEx[07May2026 00:15:51.199] [Server thread/INFO] [MythicMobs/]: [35m[1m------------------------------------------------------------[0m[0m
+Server threadEx[07May2026 00:15:51.228] [Server thread/INFO] [MythicMobs/]: Saving plugin data...[0m
+Server threadEx[07May2026 00:15:51.229] [Server thread/INFO] [MythicMobs/]: [32m✓[37mSaving Finished[0m
+Server threadEx[07May2026 00:15:51.237] [Server thread/INFO] [SCore/]: Disabling SCore v5.26.4.26
+Server threadEx[07May2026 00:15:51.238] [Server thread/INFO] [Console/]: SCore Save UsagePerDay....
+Server threadEx[07May2026 00:15:51.247] [Server thread/INFO] [Console/]: SCore Save UsagePerDay done !
+Server threadEx[07May2026 00:15:51.247] [Server thread/INFO] [Console/]: SCore Save Commands...
+Server threadEx[07May2026 00:15:51.252] [Server thread/INFO] [Console/]: SCore Save Commands done !
+Server threadEx[07May2026 00:15:51.253] [Server thread/INFO] [Console/]: SCore Save Cooldowns...
+Server threadEx[07May2026 00:15:51.253] [Server thread/INFO] [Console/]: SCore 0 cooldowns saved
+Server threadEx[07May2026 00:15:51.253] [Server thread/INFO] [Console/]: SCore Save Cooldowns done !
+Server threadEx[07May2026 00:15:51.253] [Server thread/INFO] [Console/]: SCore Run delayed saving tasks...
+Server threadEx[07May2026 00:15:51.255] [Server thread/INFO] [Console/]: SCore Run delayed saving tasks done !
+Server threadEx[07May2026 00:15:51.255] [Server thread/INFO] [Console/]: SCore Clear scheduled tasks...
+Server threadEx[07May2026 00:15:51.256] [Server thread/INFO] [Console/]: SCore Clear scheduled tasks done !
+Server threadEx[07May2026 00:15:51.256] [Server thread/INFO] [WorldGuard/]: Disabling WorldGuard v7.0.12+829a4a4
+Server threadEx[07May2026 00:15:51.257] [Server thread/INFO] [ProtocolLib/]: Disabling ProtocolLib v5.4.0
+Server threadEx[07May2026 00:15:51.260] [Server thread/INFO] [NBTAPI/]: Disabling NBTAPI v2.15.7
+Server threadEx[07May2026 00:15:51.260] [Server thread/INFO] [spark/]: Disabling spark v1.10.119
+Server threadEx[07May2026 00:15:51.267] [Server thread/INFO] [TAB/]: Disabling TAB v6.0.2
+Server threadEx[07May2026 00:15:51.268] [Server thread/INFO] [Console/]: [TAB] §xDisabled in 1ms
+Server threadEx[07May2026 00:15:51.269] [Server thread/INFO] [ClearLag/]: Disabling ClearLag v3.2.2
+Server threadEx[07May2026 00:15:51.269] [Server thread/INFO] [Minecraft/]: [ClearLag] Clearlag is now disabled!
+Server threadEx[07May2026 00:15:51.270] [Server thread/INFO] [PlaceholderAPI/]: Disabling PlaceholderAPI v2.12.2
+Server threadEx[07May2026 00:15:51.270] [Server thread/INFO] [Chunky/]: Disabling Chunky v1.3.146
+Server threadEx[07May2026 00:15:51.272] [Server thread/INFO] [WorldEdit/]: Disabling WorldEdit v7.3.10-beta-01+cb9fd58
+Server threadEx[07May2026 00:15:51.284] [Server thread/INFO] [com.sk89q.worldedit.extension.platform.PlatformManager/]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+Server threadEx[07May2026 00:15:51.286] [Server thread/INFO] [LuckPerms/]: Disabling LuckPerms v5.5.42
+Server threadEx[07May2026 00:15:51.286] [Server thread/INFO] [LuckPerms/]: Starting shutdown process...
+Server threadEx[07May2026 00:15:51.292] [Server thread/INFO] [LuckPerms/]: Closing storage...
+Server threadEx[07May2026 00:15:51.308] [Server thread/INFO] [LuckPerms/]: Goodbye!
+Server threadEx[07May2026 00:15:51.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+Server threadEx[07May2026 00:15:51.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+Server threadEx[07May2026 00:15:51.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+Server threadEx[07May2026 00:15:51.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+Server threadEx[07May2026 00:15:51.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+Server threadEx[07May2026 00:15:56.501] [Exit Thread/INFO] [Arclight/]: 8 threads not shutting down correctly, force exiting
+Exit ThreadEx
